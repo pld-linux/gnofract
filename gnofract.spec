@@ -9,7 +9,7 @@ Source:		http://www.multimania.com/mason/%{name}-%{version}.tar.gz
 URL:		http://www.multimania.com/mason
 BuildRequires:	gnome-libs-devel >= 1.0.12  
 BuildRequires:	gettext-devel
-BuildRoot:	/tmp/%{name}-%{version}-root
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_prefix		/usr/X11R6
 
