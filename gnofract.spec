@@ -6,7 +6,7 @@ Release:	1
 License:	GPL
 Group:		Applications/Graphics
 Source0:	http://www.multimania.com/mason/%{name}-%{version}.tar.gz
-URL:		http://www.multimania.com/mason
+# URL:		http://www.multimania.com/mason
 BuildRequires:	gnome-libs-devel >= 1.0.12
 BuildRequires:	gettext-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
