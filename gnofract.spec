@@ -1,10 +1,13 @@
 Summary:	Fractal generator/browser
+Summary(pl):	Generator i przegl±darka fraktali
 Name:		gnofract
 Version:	0.2
 Release:	1
 License:	GPL
 Group:		Applications/Graphics
+Group(de):	Applikationen/Grafik
 Group(pl):	Aplikacje/Grafika
+Group(pt):	Aplicações/Gráficos
 Source0:	http://www.multimania.com/mason/%{name}-%{version}.tar.gz
 URL:		http://www.multimania.com/mason
 BuildRequires:	gnome-libs-devel >= 1.0.12  
@@ -16,8 +19,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Gnofract is a Fractal generator/browser.
 
+%description -l pl
+Gnofract to generator i przegl±darka fraktali.
+
 %prep
-rm -rf $RPM_BUILD_ROOT
 %setup -q
 
 %build
