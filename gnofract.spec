@@ -25,7 +25,7 @@ gettextize --copy --force
 LDFAGS="-s"; export LDFAGS
 %configure
 
-make
+%{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
