@@ -5,9 +5,6 @@ Version:	0.2
 Release:	1
 License:	GPL
 Group:		Applications/Graphics
-Group(de):	Applikationen/Grafik
-Group(pl):	Aplikacje/Grafika
-Group(pt):	Aplicações/Gráficos
 Source0:	http://www.multimania.com/mason/%{name}-%{version}.tar.gz
 URL:		http://www.multimania.com/mason
 BuildRequires:	gnome-libs-devel >= 1.0.12  
