@@ -23,7 +23,7 @@ Gnofract to generator i przegl±darka fraktali.
 %setup -q
 
 %build
-gettextize --copy --force
+%{__gettextize}
 LDFAGS="-s"; export LDFAGS
 %configure
 
