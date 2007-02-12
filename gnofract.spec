@@ -1,5 +1,5 @@
 Summary:	Fractal generator/browser
-Summary(pl):	Generator i przegl±darka fraktali
+Summary(pl.UTF-8):   Generator i przeglÄ…darka fraktali
 Name:		gnofract
 Version:	0.2
 Release:	1
@@ -16,8 +16,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Gnofract is a Fractal generator/browser.
 
-%description -l pl
-Gnofract to generator i przegl±darka fraktali.
+%description -l pl.UTF-8
+Gnofract to generator i przeglÄ…darka fraktali.
 
 %prep
 %setup -q
