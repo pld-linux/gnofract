@@ -1,5 +1,5 @@
 Summary:	Fractal generator/browser
-Summary(pl.UTF-8):   Generator i przeglądarka fraktali
+Summary(pl.UTF-8):	Generator i przeglądarka fraktali
 Name:		gnofract
 Version:	0.2
 Release:	1
